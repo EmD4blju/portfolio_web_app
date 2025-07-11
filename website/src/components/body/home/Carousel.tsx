@@ -36,7 +36,7 @@ function Carousel() {
         <div className="carousel-item active" data-bs-interval="10000">
           <CarouselCard
             heading="🧠 AI & Full-Stack Dev in Progress"
-            description="I'm building a career at the intersection of software engineering and artificial intelligence. From full-stack apps with Python, Node.js, and React, to deploying solutions on GCP—my true focus lies in mastering machine learning and shaping intelligent systems that solve real-world problems."
+            description="From full-stack apps in Python, Node.js, and React to deploying on GCP, I build modern software with a focus on intelligent systems. I’m driven by a passion for machine learning and turning data into real-world impact."
             imgPath="src/assets/coding-carousel.png"
           />
         </div>
