@@ -15,12 +15,12 @@ function Navbar() {
       </li>
       <li className="p-5 p-sm-3">
         <a href="#" className="link-light link-opacity-25-hover custom-fade">
-          <FaRegNewspaper />
+          <FaLaptopCode />
         </a>
       </li>
       <li className="p-5 p-sm-3">
         <a href="#" className="link-light link-opacity-25-hover custom-fade">
-          <FaLaptopCode />
+          <FaRegNewspaper />
         </a>
       </li>
       <li className="p-5 p-sm-3">
