@@ -2,3 +2,7 @@
 .custom-fade {
   transition: 0.3s;
 }
+
+.w-600px {
+  width: 600px;
+}

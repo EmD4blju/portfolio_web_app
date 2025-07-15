@@ -1,5 +1,6 @@
 import ConfidenceBar from "./ConfidenceBar";
 import ShieldImage, { type ShieldImageProperties } from "./ShieldImage";
+import "../../../custom_styles/styles.css";
 
 interface TechCardProperties {
   heading: string;
@@ -15,18 +16,21 @@ function TechCard({
   shieldImages,
 }: TechCardProperties) {
   return (
-    <div className="p-3 w-25 d-flex flex-column flex-wrap flex-md-nowrap justify-content-center border ">
-      <h1 className="text-center">{heading}</h1>
-      <div className="d-flex">
-        <img src={imgPath} alt="image" className="" width={200} height={200} />
-        <div className="flex-fill d-flex flex-column justify-content-between">
-          <div className="p-1 d-flex flex-wrap justify-content-center align-items-center gap-1 ">
-            {shieldImages.map((shieldImage) => (
-              <ShieldImage src={shieldImage.src} alt={shieldImage.alt} />
-            ))}
-          </div>
-          <ConfidenceBar level={level} />
+    <div className="p-3 w-600px d-flex flex-wrap flex-md-nowrap justify-content-center rounded-4 bg-dark bg-gradient">
+      <img
+        src={imgPath}
+        alt="image"
+        className="align-self-center"
+        width={150}
+        height={150}
+      />
+      <div className="flex-fill d-flex flex-column">
+        <div className="p-3 flex-fill d-flex flex-wrap justify-content-center align-items-center gap-1">
+          {shieldImages.map((shieldImage) => (
+            <ShieldImage src={shieldImage.src} alt={shieldImage.alt} />
+          ))}
         </div>
+        <ConfidenceBar level={level} />
       </div>
     </div>
   );
