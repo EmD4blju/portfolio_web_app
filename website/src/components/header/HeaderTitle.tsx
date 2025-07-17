@@ -1,8 +1,10 @@
+import profile from "@assets/profile.jpg";
+
 function HeaderTitle() {
   return (
     <div className="d-flex align-items-center">
       <img
-        src="src/assets/profile.jpg"
+        src={profile}
         className="rounded-circle"
         style={{ width: "7em" }}
         alt="No image"

@@ -1,4 +1,7 @@
 import TechCard from "./TechCard";
+import pythonLogo from "@assets/python-logo.png";
+import javaLogo from "@assets/java-logo.png";
+import csLogo from "@assets/cs-logo.png";
 
 function TechStack() {
   return (
@@ -7,7 +10,7 @@ function TechStack() {
       <div className="d-flex flex-wrap justify-content-evenly gap-5">
         <TechCard
           heading="Python"
-          imgPath="src/assets/python-logo.png"
+          imgPath={pythonLogo}
           level={90}
           shieldImages={[
             {
@@ -50,7 +53,7 @@ function TechStack() {
         />
         <TechCard
           heading="Java"
-          imgPath="src/assets/java-logo.png"
+          imgPath={javaLogo}
           level={75}
           shieldImages={[
             {
@@ -77,7 +80,7 @@ function TechStack() {
         />
         <TechCard
           heading="C#"
-          imgPath="src/assets/cs-logo.png"
+          imgPath={csLogo}
           level={60}
           shieldImages={[
             {

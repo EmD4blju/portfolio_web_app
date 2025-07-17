@@ -1,6 +1,9 @@
 import CarouselCard from "./CarouselCard";
 import CarouselIndicator from "./CarouselIndicator";
-import codingCard from "../../../assets/coding-carousel.png";
+import codingCard from "@assets/coding-carousel.png";
+import arduinoCard from "@assets/arduino-carousel.png";
+import guitarCard from "@assets/guitar-carousel.png";
+import gamingCard from "@assets/gaming-carousel.png";
 
 function Carousel() {
   return (
@@ -43,21 +46,21 @@ function Carousel() {
           <CarouselCard
             heading="🔧 Hardware Meets Code"
             description="I love bringing ideas to life with Arduino—whether it’s blinking LEDs, building sensors, or prototyping quirky gadgets. Tinkering at the intersection of hardware and software gives me a hands-on way to explore how the digital world connects to the physical one."
-            imgPath="src/assets/arduino-carousel.png"
+            imgPath={arduinoCard}
           />
         </div>
         <div className="carousel-item" data-bs-interval="10000">
           <CarouselCard
             heading="🎸 Guitarist with Genre Hops"
             description="From shredding metal riffs to mellow reggae grooves, I channel creativity through six strings. I’m always exploring new genres—rock, jazz, and beyond—to find fresh sounds and rhythms."
-            imgPath="src/assets/guitar-carousel.png"
+            imgPath={guitarCard}
           />
         </div>
         <div className="carousel-item" data-bs-interval="10000">
           <CarouselCard
             heading="🎮 Adventurer at Heart"
             description="Whether I’m wandering Tamriel, surviving the Wasteland, building in Minecraft, or diving into pixelated nostalgia, games fuel my imagination. I’m all about immersive worlds and timeless stories."
-            imgPath="src/assets/gaming-carousel.png"
+            imgPath={gamingCard}
           />
         </div>
       </div>
