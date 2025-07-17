@@ -1,5 +1,6 @@
 import CarouselCard from "./CarouselCard";
 import CarouselIndicator from "./CarouselIndicator";
+import codingCard from "../../../assets/coding-carousel.png";
 
 function Carousel() {
   return (
@@ -35,7 +36,7 @@ function Carousel() {
           <CarouselCard
             heading="🧠 AI & Full-Stack Dev in Progress"
             description="From full-stack apps in Python, Node.js, and React to deploying on GCP, I build modern software with a focus on intelligent systems. I’m driven by a passion for machine learning and turning data into real-world impact."
-            imgPath="src/assets/coding-carousel.png"
+            imgPath={codingCard}
           />
         </div>
         <div className="carousel-item" data-bs-interval="10000">
