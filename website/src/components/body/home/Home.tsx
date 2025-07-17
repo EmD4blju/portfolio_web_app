@@ -1,7 +1,5 @@
 import Carousel from "./Carousel";
 
-interface HomeProperties {}
-
 function Home() {
   return (
     <div className="d-flex flex-column gap-2">

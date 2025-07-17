@@ -9,12 +9,7 @@ interface TechCardProperties {
   shieldImages: ShieldImageProperties[];
 }
 
-function TechCard({
-  heading,
-  imgPath,
-  level,
-  shieldImages,
-}: TechCardProperties) {
+function TechCard({ imgPath, level, shieldImages }: TechCardProperties) {
   return (
     <div className="p-3 w-600px d-flex flex-wrap flex-md-nowrap justify-content-center rounded-4 bg-dark bg-gradient">
       <img

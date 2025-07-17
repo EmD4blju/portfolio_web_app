@@ -1,8 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-interface FooterProperties {}
-
 function Footer() {
   return (
     <div className="fs-5 border-top rounded-4 border-light d-flex justify-content-between">

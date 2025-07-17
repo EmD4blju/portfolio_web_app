@@ -1,8 +1,6 @@
 import CarouselCard from "./CarouselCard";
 import CarouselIndicator from "./CarouselIndicator";
 
-interface CarouselProperties {}
-
 function Carousel() {
   return (
     <div

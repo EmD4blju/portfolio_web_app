@@ -1,5 +1,3 @@
-interface HeaderTitleProperties {}
-
 function HeaderTitle() {
   return (
     <div className="d-flex align-items-center">
@@ -20,11 +18,3 @@ function HeaderTitle() {
 }
 
 export default HeaderTitle;
-
-/* Add this CSS to your global stylesheet or in App.css:
-@media (max-width: 530px) {
-  .custom-hide-530 {
-    display: none !important;
-  }
-}
-*/

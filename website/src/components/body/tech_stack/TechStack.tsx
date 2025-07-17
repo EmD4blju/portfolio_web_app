@@ -1,7 +1,4 @@
-import ShieldImage from "./ShieldImage";
 import TechCard from "./TechCard";
-
-interface TechStackProperties {}
 
 function TechStack() {
   return (

@@ -3,8 +3,6 @@ import { FaRegNewspaper } from "react-icons/fa6";
 import { FaLaptopCode } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
-interface NavbarProperties {}
-
 function Navbar() {
   return (
     <ul className="navbar flex-fill d-flex flex-wrap justify-content-evenly list-unstyled m-0 fs-1">
