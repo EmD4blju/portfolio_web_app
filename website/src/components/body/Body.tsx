@@ -1,3 +1,4 @@
+import ContributionStack from "./contribution_stack/ContributionStack";
 import Home from "./home/Home";
 import TechStack from "./tech_stack/TechStack";
 
@@ -7,6 +8,8 @@ function Body() {
       <Home />
       <hr />
       <TechStack />
+      <hr />
+      <ContributionStack />
     </div>
   );
 }
