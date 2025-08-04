@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <div className="p-5 rounded-bottom-4 bg-dark d-flex justify-content-evenly align-items-center flex-wrap">
+    <div className="p-2 w-75 mt-2 z-3 position-fixed rounded-pill bg-secondary d-flex justify-content-evenly align-items-center flex-wrap align-self-center">
       <HeaderTitle />
       <Navbar />
     </div>
