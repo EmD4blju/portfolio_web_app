@@ -1,5 +1,7 @@
 import ConfidenceBar from "./ConfidenceBar";
-import ShieldImage, { type ShieldImageProperties } from "./ShieldImage";
+import ShieldImage, {
+  type ShieldImageProperties,
+} from "../../shield/ShieldImage";
 import "../../../custom_styles/styles.css";
 
 interface TechCardProperties {
