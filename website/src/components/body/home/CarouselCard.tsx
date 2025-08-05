@@ -20,7 +20,7 @@ function CarouselCard({
           width={400}
           height={300}
         />
-        <span className="p-2 flex-fill align-self-center text-center text-sm-start">
+        <span className="p-2 flex-fill align-self-center text-center text-sm-start d-none d-sm-block">
           {description}
         </span>
       </div>

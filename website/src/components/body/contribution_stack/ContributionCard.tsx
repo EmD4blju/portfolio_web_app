@@ -15,7 +15,7 @@ function ContributionCard({
   return (
     <div
       className="p-2 flex-shrink-0 d-flex flex-column justify-content-between rounded-4 bg-dark bg-gradient"
-      style={{ width: "400px" }}
+      style={{ width: "300px" }}
     >
       <h2 className="w-100 text-center ">{title}</h2>
       <p className="p-2 fs-5 flex-fill">{description}</p>
