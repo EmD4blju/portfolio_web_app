@@ -9,7 +9,7 @@ function Carousel() {
   return (
     <div
       id="homeCarousel"
-      className="carousel slide p-5 container"
+      className="carousel slide p-5 w-75 align-self-center bg-dark bg-opacity-75 rounded-4"
       data-bs-ride="carousel"
     >
       <div className="carousel-indicators">

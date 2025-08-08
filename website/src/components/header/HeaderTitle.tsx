@@ -6,7 +6,7 @@ function HeaderTitle() {
       <img
         src={profile}
         className="rounded-circle"
-        style={{ width: "7em" }}
+        style={{ width: "4.7em" }}
         alt="No image"
       />
       <div className="d-flex flex-column p-3">

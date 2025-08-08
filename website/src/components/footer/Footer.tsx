@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="fs-5 border-top rounded-4 border-light d-flex justify-content-between">
+    <div className="fs-5 d-flex justify-content-between">
       <span className="align-self-center p-3">© 2025 EmDablju</span>
       <span className="align-self-center p-3 d-none d-sm-block">
         Developed by EmDablju
