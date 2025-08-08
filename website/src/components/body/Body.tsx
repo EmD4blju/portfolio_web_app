@@ -4,9 +4,9 @@ import Home from "./home/Home";
 function Body() {
   return (
     <>
-      <div className="flex-fill align-self-center w-100">
+      <div className="">
         <Home />
-        <ContributionStack />
+        {/* <ContributionStack /> */}
       </div>
     </>
   );

@@ -6,9 +6,9 @@ import {
 
 function ContributionStack() {
   return (
-    <div className="d-flex flex-column gap-2">
-      <h1 className="m-0 p-2">Contribution Stack</h1>
-      <div className="p-3 d-flex overflow-auto gap-4">
+    <div className="">
+      <h1 className="">Contribution Stack</h1>
+      <div className="">
         <ContributionCard
           title="Portfolio web app"
           description="A personal portfolio web application designed to showcase my projects, technical skills, and contributions. This site is built using modern web technologies and includes dynamic visualizations, interactive components, and data-driven elements."

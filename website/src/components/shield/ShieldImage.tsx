@@ -4,7 +4,7 @@ export interface ShieldImageProperties {
 }
 
 function ShieldImage({ src, alt }: ShieldImageProperties) {
-  return <img src={src} alt={alt} className="rounded-pill" height="20" />;
+  return <img src={src} alt={alt} />;
 }
 
 export default ShieldImage;

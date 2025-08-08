@@ -3,19 +3,17 @@ import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="fs-5 d-flex justify-content-between">
-      <span className="align-self-center p-3">© 2025 EmDablju</span>
-      <span className="align-self-center p-3 d-none d-sm-block">
-        Developed by EmDablju
-      </span>
-      <ul className="d-flex flex-wrap justify-content-end gap-4 list-unstyled m-0 p-3 fs-1">
+    <div className="">
+      <span className="">© 2025 EmDablju</span>
+      <span className="">Developed by EmDablju</span>
+      <ul className="">
         <li className="">
-          <a href="#" className="link-light link-opacity-25-hover custom-fade">
+          <a href="#" className="">
             <FaGithub />
           </a>
         </li>
         <li className="">
-          <a href="#" className="link-light link-opacity-25-hover custom-fade">
+          <a href="#" className="">
             <FaLinkedin />
           </a>
         </li>
