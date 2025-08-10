@@ -1,17 +1,13 @@
-interface HomeCardProperties {
-  heading: string;
-  description: string;
-  imgPath: string;
-}
+export interface HomeCardProperties {}
 
-function HomeCard({ heading, description, imgPath }: HomeCardProperties) {
+function HomeCard() {
   return (
-    <div className="flex flex-col gap-5 mx-10 bg-neutral-700 shadow-md/80 p-5 rounded-3xl">
-      <h2 className="text-xl self-center font-medium">{heading}</h2>
-      <div className="flex flex-wrap gap-10">
-        <img src={imgPath} alt="Card icon" className="w-50 hidden sm:block" />
-        <span className="self-center w-40 flex-auto">{description}</span>
-      </div>
+    <div className="home-card">
+      <p className="home-card-description max-md:text-sm">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae eos
+        explicabo sint asperiores officia enim necessitatibus consequatur illum,
+        repellendus tempora.
+      </p>
     </div>
   );
 }

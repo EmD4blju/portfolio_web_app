@@ -1,12 +1,56 @@
 @import "tailwindcss";
 
-/*======== CUSTOM STYLES ========*/
+/*~======== CUSTOM STYLES ========*/
 @layer components {
+  /*~======== APP ========*/
+  .main {
+    @apply flex flex-col bg-amber-50 min-h-dvh font-mono selection:bg-neutral-500/40;
+  }
+
+  /*~======== HEADER ========*/
+  .header {
+    @apply w-11/12 mt-2 p-3 z-50
+      self-center fixed 
+      flex flex-wrap justify-between;
+  }
+
+  /*?======== HEADER TITLE ========*/
+  .header-title {
+    @apply flex flex-col justify-center font-bold;
+  }
+
+  /*?======== NAVBAR ========*/
+
+  .navbar {
+    @apply self-center flex flex-wrap justify-center gap-6 text-3xl;
+  }
+
   .navbar-icon {
     @apply rounded-2xl p-1
-    flex-shrink-0 cursor-pointer 
-    hover:text-emerald-950 hover:rounded-md
-    hover:bg-neutral-500
-    duration-500;
+        flex-shrink-0 cursor-pointer 
+        hover:text-amber-100 hover:rounded-md
+        hover:bg-neutral-500
+        duration-300;
+  }
+
+  /*~======== BODY ========*/
+
+  /*?======== HOME ========*/
+  .home {
+    @apply bg-[url(@assets/header_background_light.png)] flex flex-col justify-center h-[90dvh];
+  }
+
+  /*?======== HOME CARD ========*/
+  .home-card {
+    @apply bg-neutral-700/5 w-1/2 self-center text-center content-center shadow-md/40 rounded-2xl backdrop-blur-sm font-bold;
+  }
+
+  .home-card-description {
+    @apply p-5 text-balance;
+  }
+
+  /*~======== FOOTER ========*/
+  .footer {
+    @apply bg-neutral-800 h-20 text-amber-100 w-full flex justify-between self-center p-5;
   }
 }

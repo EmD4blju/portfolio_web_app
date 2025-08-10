@@ -4,10 +4,10 @@ import Header from "./components/header/Header";
 
 function App() {
   return (
-    <div className="flex flex-col bg-neutral-800 min-h-dvh">
+    <div className="main">
       <Header />
       <Body />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
