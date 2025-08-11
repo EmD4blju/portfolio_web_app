@@ -35,6 +35,10 @@
 
   /*~======== BODY ========*/
 
+  .body {
+    @apply flex flex-col;
+  }
+
   /*?======== HOME ========*/
   .home {
     @apply bg-[url(@assets/header_background_light.png)] flex flex-col justify-center h-[90dvh];
@@ -42,11 +46,30 @@
 
   /*?======== HOME CARD ========*/
   .home-card {
-    @apply bg-neutral-700/5 w-1/2 self-center text-center content-center shadow-md/40 rounded-2xl backdrop-blur-sm font-bold;
+    @apply flex w-1/2 justify-center items-center self-center content-center shadow-md/40 rounded-2xl backdrop-blur-[2px] font-bold;
   }
 
   .home-card-description {
-    @apply p-5 text-balance;
+    @apply w-1/2 m-5 text-balance;
+  }
+
+  .home-profile {
+    @apply w-[120px] m-5 rounded-4xl shadow-md/40 shrink-0;
+  }
+
+  /*?======== TECH STACK ========*/
+  .tech-stack {
+    @apply flex justify-center items-center p-12 gap-10 w-full h-[5dvh] self-center bg-white overflow-x-auto overflow-y-hidden;
+  }
+
+  .tech-stack-icon {
+    @apply flex justify-center relative text-3xl cursor-pointer;
+  }
+
+  .tech-stack-icon-tooltip {
+    @apply absolute mb-1.5 px-2 rounded-2xl bottom-1/3 scale-0 
+    text-center text-nowrap text-sm bg-black text-white 
+    duration-300 group-hover:scale-100 group-hover:bottom-full;
   }
 
   /*~======== FOOTER ========*/
