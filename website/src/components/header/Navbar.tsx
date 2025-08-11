@@ -2,31 +2,21 @@ import { FaHome } from "react-icons/fa";
 import { FaRegNewspaper } from "react-icons/fa6";
 import { FaLaptopCode } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import NavbarIcon from "./NavbarIcon";
 
 function Navbar() {
   return (
-    <ul className="navbar flex-fill d-flex flex-wrap justify-content-evenly list-unstyled m-0 fs-1">
-      <li className="p-3 p-sm-3">
-        <a href="#" className="link-light link-opacity-25-hover custom-fade">
-          <FaHome />
-        </a>
-      </li>
-      <li className="p-3 p-sm-3">
-        <a href="#" className="link-light link-opacity-25-hover custom-fade">
-          <FaLaptopCode />
-        </a>
-      </li>
-      <li className="p-3 p-sm-3">
-        <a href="#" className="link-light link-opacity-25-hover custom-fade">
-          <FaRegNewspaper />
-        </a>
-      </li>
-      <li className="p-3 p-sm-3">
-        <a href="#" className="link-light link-opacity-25-hover custom-fade">
-          <FaGithub />
-        </a>
-      </li>
-    </ul>
+    <div className="navbar">
+      <NavbarIcon link="#" icon={FaHome} />
+      <NavbarIcon link="#" icon={FaLaptopCode} />
+      <NavbarIcon link="#" icon={FaRegNewspaper} />
+      <NavbarIcon link="https://github.com/EmD4blju" icon={FaGithub} />
+      <NavbarIcon
+        link="https://www.linkedin.com/in/mikołaj-warda-8988a8304/"
+        icon={FaLinkedin}
+      />
+    </div>
   );
 }
 
