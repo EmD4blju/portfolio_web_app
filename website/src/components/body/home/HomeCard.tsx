@@ -1,7 +1,5 @@
 import profile from "@assets/profile.jpg";
 
-export interface HomeCardProperties {}
-
 function HomeCard() {
   return (
     <div className="home-card">
