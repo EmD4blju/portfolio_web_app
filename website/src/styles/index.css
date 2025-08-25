@@ -9,7 +9,7 @@
 
   /*~======== HEADER ========*/
   .header {
-    @apply w-11/12 mt-2 p-3 z-50
+    @apply w-3/4 mt-2 p-3 z-50
       self-center fixed rounded-2xl duration-300
       flex flex-wrap justify-between;
   }
@@ -54,12 +54,12 @@
   }
 
   .home-profile {
-    @apply w-[120px] m-5 rounded-4xl shadow-md/40 shrink-0;
+    @apply w-[120px] m-5 rounded-2xl shadow-md/40 shrink-0;
   }
 
   /*?======== TECH STACK ========*/
   .tech-stack {
-    @apply flex justify-center items-center p-12 gap-10 w-full h-[5dvh] self-center bg-white overflow-x-auto overflow-y-hidden;
+    @apply flex justify-center-safe items-center p-12 gap-10 w-full h-[5dvh] bg-white overflow-x-auto overflow-y-hidden;
   }
 
   .tech-stack-icon {
@@ -75,7 +75,11 @@
   /*?======== CERTIFICATION STACK ========*/
 
   .certification-stack {
-    @apply min-h-dvh p-5 flex flex-col gap-5;
+    @apply min-h-[60dvh] p-5 flex flex-col gap-10;
+  }
+
+  .certification-stack-header {
+    @apply text-black bg-amber-50 text-2xl p-4 tracking-widest border rounded-xl w-fit;
   }
 
   .certification-card {
@@ -92,6 +96,16 @@
 
   .certification-card-description {
     @apply p-4;
+  }
+
+  /*?======== PROJECT STACK ========*/
+
+  .project-stack {
+    @apply min-h-[60dvh] p-5 flex flex-col gap-5;
+  }
+
+  .project-stack-header {
+    @apply text-black bg-amber-50 text-2xl p-4 tracking-widest border rounded-xl w-fit self-end;
   }
 
   /*~======== FOOTER ========*/
