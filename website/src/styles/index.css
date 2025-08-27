@@ -9,7 +9,7 @@
 
   /*~======== HEADER ========*/
   .header {
-    @apply w-10/12 mt-2 p-3 z-50
+    @apply w-full mt-2 p-3 z-50
       self-center fixed rounded-3xl duration-300
       flex flex-wrap justify-between;
   }
