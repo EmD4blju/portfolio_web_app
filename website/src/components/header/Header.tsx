@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import { useEffect, useState } from "react";
 
 function Header() {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState<boolean>(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,7 +16,7 @@ function Header() {
   return (
     <div
       className={`header max-md:justify-center ${
-        isScrolled ? "bg-white shadow-md/40" : "bg-transparent"
+        isScrolled ? "w-11/12 bg-white shadow-md/40" : "bg-transparent"
       }`}
     >
       <HeaderTitle />
