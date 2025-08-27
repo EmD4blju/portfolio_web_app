@@ -9,8 +9,8 @@
 
   /*~======== HEADER ========*/
   .header {
-    @apply w-3/4 mt-2 p-3 z-50
-      self-center fixed rounded-2xl duration-300
+    @apply w-10/12 mt-2 p-3 z-50
+      self-center fixed rounded-3xl duration-300
       flex flex-wrap justify-between;
   }
 
@@ -101,15 +101,56 @@
   /*?======== PROJECT STACK ========*/
 
   .project-stack {
-    @apply min-h-[60dvh] p-5 flex flex-col gap-5;
+    @apply min-h-[400px] p-5 flex flex-col gap-5 justify-start;
   }
 
   .project-stack-header {
     @apply text-black bg-amber-50 text-2xl p-4 tracking-widest border rounded-xl w-fit self-end;
   }
 
+  .project-stack-list {
+    @apply flex h-[300px] flex-nowrap overflow-auto  gap-5;
+  }
+
+  .project-card {
+    @apply w-[400px] shrink-0 flex flex-col;
+  }
+
+  .project-card-thumbnail {
+    @apply h-3/4 flex justify-center items-center rounded-t-xl max-md:rounded-b-xl bg-cover;
+  }
+
+  .project-card-title {
+    @apply p-3 font-bold rounded-full text-neutral-300 bg-white/10 backdrop-blur-[5px] shadow-md/40;
+  }
+
+  .project-card-description {
+    @apply rounded-b-xl p-1 h-1/4 bg-neutral-500 hover:h-full duration-300 overflow-hidden text-sm;
+  }
+
   /*~======== FOOTER ========*/
   .footer {
     @apply bg-neutral-800 h-20 text-amber-100 w-full flex justify-between self-center p-5;
   }
+}
+
+/*~======== CUSTOM SCROLLBAR ========*/
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #00000000;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  min-height: 40px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  margin: 4px;
 }

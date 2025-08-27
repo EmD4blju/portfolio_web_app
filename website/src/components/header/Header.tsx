@@ -16,9 +16,7 @@ function Header() {
   return (
     <div
       className={`header max-md:justify-center ${
-        isScrolled
-          ? "w-11/12 bg-white shadow-md/40 rounded-sm"
-          : "bg-transparent"
+        isScrolled ? "w-11/12 bg-white shadow-md/40" : "bg-transparent"
       }`}
     >
       <HeaderTitle />
