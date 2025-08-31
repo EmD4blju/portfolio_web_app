@@ -9,8 +9,8 @@ function Navbar() {
   return (
     <div className="navbar">
       <NavbarIcon link="#" icon={FaHome} />
-      <NavbarIcon link="#" icon={FaLaptopCode} />
-      <NavbarIcon link="#" icon={FaRegNewspaper} />
+      <NavbarIcon link="#certification-stack" icon={FaRegNewspaper} />
+      <NavbarIcon link="#project-stack" icon={FaLaptopCode} />
       <NavbarIcon link="https://github.com/EmD4blju" icon={FaGithub} />
       <NavbarIcon
         link="https://www.linkedin.com/in/mikołaj-warda-8988a8304/"

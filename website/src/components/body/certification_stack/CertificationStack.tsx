@@ -4,7 +4,7 @@ import rhFoundationBadge from "@assets/2025-red-hat-academy-program-learner.png"
 
 function CertificationStack() {
   return (
-    <div className="certification-stack">
+    <div id="certification-stack" className="certification-stack">
       <h2 className="certification-stack-header">Certifications</h2>
       <CertificationCard
         title="Google Cloud Computing Foundations Certificate"

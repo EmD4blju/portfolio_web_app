@@ -6,7 +6,7 @@ import pythonVoiceAssistantThumbnail from "@assets/python_voice_assistant_thumbn
 
 function ProjectStack() {
   return (
-    <div className="project-stack">
+    <div id="project-stack" className="project-stack">
       <h2 className="project-stack-header">Projects</h2>
       <div className="project-stack-list custom-scrollbar">
         <ProjectCard

@@ -9,7 +9,7 @@ function TechStackIcon({ icon: Icon, tooltip }: TechStackIconProperties) {
   return (
     <div className="tech-stack-icon group">
       <span className="tech-stack-icon-tooltip">{tooltip}</span>
-      <Icon></Icon>
+      <Icon />
     </div>
   );
 }

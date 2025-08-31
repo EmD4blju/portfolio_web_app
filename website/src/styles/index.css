@@ -2,6 +2,10 @@
 
 /*~======== CUSTOM STYLES ========*/
 @layer components {
+  html {
+    @apply scroll-smooth;
+  }
+
   /*~======== APP ========*/
   .main {
     @apply flex flex-col bg-neutral-700 min-h-dvh font-mono selection:bg-neutral-500/40;
@@ -109,7 +113,7 @@
   }
 
   .project-stack-list {
-    @apply flex h-[300px] flex-nowrap overflow-auto  gap-5;
+    @apply flex h-[300px] flex-nowrap overflow-hidden hover:overflow-x-auto gap-5;
   }
 
   .project-card {
@@ -125,7 +129,7 @@
   }
 
   .project-card-description {
-    @apply rounded-b-xl p-1 h-1/4 bg-neutral-500 hover:h-full duration-300 overflow-hidden text-sm;
+    @apply rounded-b-xl p-1 h-1/4 bg-gray-600 hover:h-full duration-300 overflow-hidden text-sm;
   }
 
   /*~======== FOOTER ========*/

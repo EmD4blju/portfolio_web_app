@@ -8,7 +8,7 @@ export interface NavbarIconProperties {
 function NavbarIcon({ link, icon: Icon }: NavbarIconProperties) {
   return (
     <a href={link} className="navbar-icon">
-      {<Icon />}
+      <Icon />
     </a>
   );
 }
