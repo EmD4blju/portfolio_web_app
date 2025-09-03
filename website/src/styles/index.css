@@ -113,23 +113,21 @@
   }
 
   .project-stack-list {
-    @apply flex h-[300px] flex-nowrap overflow-hidden hover:overflow-x-auto gap-5;
+    @apply flex flex-nowrap overflow-auto gap-5;
   }
 
   .project-card {
-    @apply w-[400px] shrink-0 flex flex-col;
-  }
-
-  .project-card-thumbnail {
-    @apply h-3/4 flex justify-center items-center rounded-t-xl max-md:rounded-b-xl bg-cover;
+    @apply w-[400px] h-[250px] p-2 gap-2 shrink-0 flex flex-col justify-center-safe items-center bg-cover rounded-2xl;
   }
 
   .project-card-title {
-    @apply p-3 font-bold rounded-full text-neutral-300 bg-white/10 backdrop-blur-[5px] shadow-md/40;
+    @apply p-3 w-fit font-bold text-center rounded-full 
+    text-neutral-300 bg-black/30 backdrop-blur-sm backdrop-opacity-70 shadow-md/40;
   }
 
   .project-card-description {
-    @apply rounded-b-xl p-1 h-1/4 bg-gray-600 hover:h-full duration-300 overflow-hidden text-sm;
+    @apply rounded-md h-0 text-neutral-300 bg-black/40 backdrop-blur-[5px] shadow-md/40 
+    group-hover:h-full group-hover:p-1 duration-500 overflow-hidden text-sm text-justify;
   }
 
   /*~======== FOOTER ========*/
